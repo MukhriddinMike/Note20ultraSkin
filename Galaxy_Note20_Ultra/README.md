@@ -17,7 +17,7 @@ This is Galaxy_Note20_Ultra modify emulator skin.
 </table>
 
 ### How to use it?
-1. Clone or [Download](https://downgit.github.io/#/home?url=https://github.com/Win-Lwin-Oo/android-emulator-skins/tree/master/Galaxy_Note20_Ultra) this emulator skin
+1. [Download ⬇️](https://downgit.github.io/#/home?url=https://github.com/Win-Lwin-Oo/android-emulator-skins/tree/master/Galaxy_Note20_Ultra) this emulator skin and extract it
 2. Select new hardware profile
 <img src="https://github.com/Win-Lwin-Oo/android-emulator-skins/blob/master/Galaxy_Note20_Ultra/image/Screen%20Shot%202021-06-16%20at%203.41.51%20PM.png" width="350" height="300"/>
 3. Default skin : firstly select any default skin and then browse your emulator skin
