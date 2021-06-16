@@ -1,0 +1,66 @@
+parts {
+    portrait {
+        background {
+            image   custom_device.png
+        }
+		foreground {
+			mask	fore_port.png
+		}
+		buttons {
+			volume-up {
+				image 	rocker_up.png
+				x		2012
+				y		808
+			}
+			volume-down {
+				image 	rocker_down.png
+				x		2012
+				y		1000
+			}
+			power {
+				image 	rocker_power.png
+				x		2012
+				y		1350
+			}
+		}		
+    }
+
+    device {
+        display {
+            width   1440
+            height  3088
+            x       0
+            y       0
+        }
+    }
+}
+
+layouts {
+    portrait {
+        width     1512
+        height    3222
+        color     0xe0e0e0
+        event     EV_SW:0:1
+        
+        part1 {
+            name    portrait
+            x       0
+            y       0
+        }
+
+        part2 {
+            name    device
+            x       35
+            y       35
+        }
+    }
+}
+
+keyboard {
+    charmap qwerty2
+}
+
+network {
+    speed  full
+    delay  none
+}
